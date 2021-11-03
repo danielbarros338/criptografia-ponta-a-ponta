@@ -1,0 +1,22 @@
+{
+  "name": "creditCard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jose": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-rsa": "^1.1.1"
+  }
+}
