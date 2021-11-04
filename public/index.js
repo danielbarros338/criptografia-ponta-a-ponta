@@ -54,7 +54,7 @@ const importKey = async (binaryDer)=>{
         binaryDer,
         {
             name:"RSA-OAEP",
-            modulusLength: 1024,
+            modulusLength: 2048,
             hash: "SHA-1"
         },
         true,
